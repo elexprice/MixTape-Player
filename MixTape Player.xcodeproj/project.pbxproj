@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C3C3A7193806CD00F021F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3A6193806CD00F021F8 /* Foundation.framework */; };
+		41C3C3A9193806CD00F021F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3A8193806CD00F021F8 /* CoreGraphics.framework */; };
+		41C3C3AB193806CD00F021F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3AA193806CD00F021F8 /* UIKit.framework */; };
+		41C3C3B1193806CD00F021F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3AF193806CD00F021F8 /* InfoPlist.strings */; };
+		41C3C3B3193806CD00F021F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3C3B2193806CD00F021F8 /* main.m */; };
+		41C3C3B7193806CD00F021F8 /* ELEXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3C3B6193806CD00F021F8 /* ELEXAppDelegate.m */; };
+		41C3C3B9193806CD00F021F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3B8193806CD00F021F8 /* Images.xcassets */; };
+		41C3C3C0193806CD00F021F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3BF193806CD00F021F8 /* XCTest.framework */; };
+		41C3C3C1193806CD00F021F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3A6193806CD00F021F8 /* Foundation.framework */; };
+		41C3C3C2193806CD00F021F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3AA193806CD00F021F8 /* UIKit.framework */; };
+		41C3C3CA193806CD00F021F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3C8193806CD00F021F8 /* InfoPlist.strings */; };
+		41C3C3CC193806CD00F021F8 /* MixTape_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3C3CB193806CD00F021F8 /* MixTape_PlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C3C3C3193806CD00F021F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C3C39B193806CD00F021F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C3C3A2193806CD00F021F8;
+			remoteInfo = "MixTape Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C3C3A3193806CD00F021F8 /* MixTape Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MixTape Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C3C3A6193806CD00F021F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41C3C3A8193806CD00F021F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41C3C3AA193806CD00F021F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41C3C3AE193806CD00F021F8 /* MixTape Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixTape Player-Info.plist"; sourceTree = "<group>"; };
+		41C3C3B0193806CD00F021F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C3C3B2193806CD00F021F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C3C3B4193806CD00F021F8 /* MixTape Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixTape Player-Prefix.pch"; sourceTree = "<group>"; };
+		41C3C3B5193806CD00F021F8 /* ELEXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELEXAppDelegate.h; sourceTree = "<group>"; };
+		41C3C3B6193806CD00F021F8 /* ELEXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEXAppDelegate.m; sourceTree = "<group>"; };
+		41C3C3B8193806CD00F021F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41C3C3BE193806CD00F021F8 /* MixTape PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MixTape PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C3C3BF193806CD00F021F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41C3C3C7193806CD00F021F8 /* MixTape PlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixTape PlayerTests-Info.plist"; sourceTree = "<group>"; };
+		41C3C3C9193806CD00F021F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C3C3CB193806CD00F021F8 /* MixTape_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixTape_PlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C3C3A0193806CD00F021F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3C3A9193806CD00F021F8 /* CoreGraphics.framework in Frameworks */,
+				41C3C3AB193806CD00F021F8 /* UIKit.framework in Frameworks */,
+				41C3C3A7193806CD00F021F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C3C3BB193806CD00F021F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3C3C0193806CD00F021F8 /* XCTest.framework in Frameworks */,
+				41C3C3C2193806CD00F021F8 /* UIKit.framework in Frameworks */,
+				41C3C3C1193806CD00F021F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C3C39A193806CD00F021F8 = {
+			isa = PBXGroup;
+			children = (
+				41C3C3AC193806CD00F021F8 /* MixTape Player */,
+				41C3C3C5193806CD00F021F8 /* MixTape PlayerTests */,
+				41C3C3A5193806CD00F021F8 /* Frameworks */,
+				41C3C3A4193806CD00F021F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C3C3A4193806CD00F021F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C3C3A3193806CD00F021F8 /* MixTape Player.app */,
+				41C3C3BE193806CD00F021F8 /* MixTape PlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C3C3A5193806CD00F021F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C3C3A6193806CD00F021F8 /* Foundation.framework */,
+				41C3C3A8193806CD00F021F8 /* CoreGraphics.framework */,
+				41C3C3AA193806CD00F021F8 /* UIKit.framework */,
+				41C3C3BF193806CD00F021F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C3C3AC193806CD00F021F8 /* MixTape Player */ = {
+			isa = PBXGroup;
+			children = (
+				41C3C3B5193806CD00F021F8 /* ELEXAppDelegate.h */,
+				41C3C3B6193806CD00F021F8 /* ELEXAppDelegate.m */,
+				41C3C3B8193806CD00F021F8 /* Images.xcassets */,
+				41C3C3AD193806CD00F021F8 /* Supporting Files */,
+			);
+			path = "MixTape Player";
+			sourceTree = "<group>";
+		};
+		41C3C3AD193806CD00F021F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C3C3AE193806CD00F021F8 /* MixTape Player-Info.plist */,
+				41C3C3AF193806CD00F021F8 /* InfoPlist.strings */,
+				41C3C3B2193806CD00F021F8 /* main.m */,
+				41C3C3B4193806CD00F021F8 /* MixTape Player-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C3C3C5193806CD00F021F8 /* MixTape PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C3C3CB193806CD00F021F8 /* MixTape_PlayerTests.m */,
+				41C3C3C6193806CD00F021F8 /* Supporting Files */,
+			);
+			path = "MixTape PlayerTests";
+			sourceTree = "<group>";
+		};
+		41C3C3C6193806CD00F021F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C3C3C7193806CD00F021F8 /* MixTape PlayerTests-Info.plist */,
+				41C3C3C8193806CD00F021F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C3C3A2193806CD00F021F8 /* MixTape Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C3C3CF193806CD00F021F8 /* Build configuration list for PBXNativeTarget "MixTape Player" */;
+			buildPhases = (
+				41C3C39F193806CD00F021F8 /* Sources */,
+				41C3C3A0193806CD00F021F8 /* Frameworks */,
+				41C3C3A1193806CD00F021F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MixTape Player";
+			productName = "MixTape Player";
+			productReference = 41C3C3A3193806CD00F021F8 /* MixTape Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C3C3BD193806CD00F021F8 /* MixTape PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C3C3D2193806CD00F021F8 /* Build configuration list for PBXNativeTarget "MixTape PlayerTests" */;
+			buildPhases = (
+				41C3C3BA193806CD00F021F8 /* Sources */,
+				41C3C3BB193806CD00F021F8 /* Frameworks */,
+				41C3C3BC193806CD00F021F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C3C3C4193806CD00F021F8 /* PBXTargetDependency */,
+			);
+			name = "MixTape PlayerTests";
+			productName = "MixTape PlayerTests";
+			productReference = 41C3C3BE193806CD00F021F8 /* MixTape PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C3C39B193806CD00F021F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ELEX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Apps By Elex";
+				TargetAttributes = {
+					41C3C3BD193806CD00F021F8 = {
+						TestTargetID = 41C3C3A2193806CD00F021F8;
+					};
+				};
+			};
+			buildConfigurationList = 41C3C39E193806CD00F021F8 /* Build configuration list for PBXProject "MixTape Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41C3C39A193806CD00F021F8;
+			productRefGroup = 41C3C3A4193806CD00F021F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C3C3A2193806CD00F021F8 /* MixTape Player */,
+				41C3C3BD193806CD00F021F8 /* MixTape PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C3C3A1193806CD00F021F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3C3B1193806CD00F021F8 /* InfoPlist.strings in Resources */,
+				41C3C3B9193806CD00F021F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C3C3BC193806CD00F021F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3C3CA193806CD00F021F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C3C39F193806CD00F021F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3C3B7193806CD00F021F8 /* ELEXAppDelegate.m in Sources */,
+				41C3C3B3193806CD00F021F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C3C3BA193806CD00F021F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3C3CC193806CD00F021F8 /* MixTape_PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C3C3C4193806CD00F021F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C3C3A2193806CD00F021F8 /* MixTape Player */;
+			targetProxy = 41C3C3C3193806CD00F021F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C3C3AF193806CD00F021F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C3C3B0193806CD00F021F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41C3C3C8193806CD00F021F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C3C3C9193806CD00F021F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C3C3CD193806CD00F021F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C3C3CE193806CD00F021F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C3C3D0193806CD00F021F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixTape Player/MixTape Player-Prefix.pch";
+				INFOPLIST_FILE = "MixTape Player/MixTape Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41C3C3D1193806CD00F021F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixTape Player/MixTape Player-Prefix.pch";
+				INFOPLIST_FILE = "MixTape Player/MixTape Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41C3C3D3193806CD00F021F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MixTape Player.app/MixTape Player";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixTape Player/MixTape Player-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MixTape PlayerTests/MixTape PlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41C3C3D4193806CD00F021F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MixTape Player.app/MixTape Player";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixTape Player/MixTape Player-Prefix.pch";
+				INFOPLIST_FILE = "MixTape PlayerTests/MixTape PlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C3C39E193806CD00F021F8 /* Build configuration list for PBXProject "MixTape Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C3C3CD193806CD00F021F8 /* Debug */,
+				41C3C3CE193806CD00F021F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C3C3CF193806CD00F021F8 /* Build configuration list for PBXNativeTarget "MixTape Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C3C3D0193806CD00F021F8 /* Debug */,
+				41C3C3D1193806CD00F021F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C3C3D2193806CD00F021F8 /* Build configuration list for PBXNativeTarget "MixTape PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C3C3D3193806CD00F021F8 /* Debug */,
+				41C3C3D4193806CD00F021F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C3C39B193806CD00F021F8 /* Project object */;
+}
