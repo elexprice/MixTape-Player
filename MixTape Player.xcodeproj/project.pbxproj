@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4180AFCC1949809200ACC264 /* ELEXMixtapeSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180AFCB1949809200ACC264 /* ELEXMixtapeSong.m */; };
+		4186EA7A193EE817008B55FB /* problem child.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4186EA79193EE817008B55FB /* problem child.jpg */; };
+		4186EA7E193EE882008B55FB /* ELEXMixtapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186EA7C193EE882008B55FB /* ELEXMixtapesViewController.m */; };
+		4186EA7F193EE882008B55FB /* ELEXMixtapesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4186EA7D193EE882008B55FB /* ELEXMixtapesViewController.xib */; };
+		4186EA81193EEB49008B55FB /* welcome to battle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4186EA80193EEB49008B55FB /* welcome to battle.jpg */; };
+		4186EA83193EEB57008B55FB /* hs mixtape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4186EA82193EEB57008B55FB /* hs mixtape.jpg */; };
+		4186EA87193F77F5008B55FB /* ELEXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186EA85193F77F5008B55FB /* ELEXTestViewController.m */; };
+		4186EA88193F77F5008B55FB /* ELEXTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4186EA86193F77F5008B55FB /* ELEXTestViewController.xib */; };
 		41C3C3A7193806CD00F021F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3A6193806CD00F021F8 /* Foundation.framework */; };
 		41C3C3A9193806CD00F021F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3A8193806CD00F021F8 /* CoreGraphics.framework */; };
 		41C3C3AB193806CD00F021F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3AA193806CD00F021F8 /* UIKit.framework */; };
@@ -19,6 +27,18 @@
 		41C3C3C2193806CD00F021F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3AA193806CD00F021F8 /* UIKit.framework */; };
 		41C3C3CA193806CD00F021F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3C8193806CD00F021F8 /* InfoPlist.strings */; };
 		41C3C3CC193806CD00F021F8 /* MixTape_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3C3CB193806CD00F021F8 /* MixTape_PlayerTests.m */; };
+		41C3C3D81938071300F021F8 /* ELEXMixtapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3C3D61938071300F021F8 /* ELEXMixtapeViewController.m */; };
+		41C3C3D91938071300F021F8 /* ELEXMixtapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3D71938071300F021F8 /* ELEXMixtapeViewController.xib */; };
+		41C3C3DB1938167000F021F8 /* lil mal lfso4 cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3DA1938167000F021F8 /* lil mal lfso4 cover.jpg */; };
+		41C3C3E01938289A00F021F8 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3DC1938289A00F021F8 /* pause_button.png */; };
+		41C3C3E11938289A00F021F8 /* pause_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3DD1938289A00F021F8 /* pause_button@2x.png */; };
+		41C3C3E21938289A00F021F8 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3DE1938289A00F021F8 /* play_button.png */; };
+		41C3C3E31938289A00F021F8 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3DF1938289A00F021F8 /* play_button@2x.png */; };
+		41C3C3E519383EFE00F021F8 /* hs most wanted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41C3C3E419383EFE00F021F8 /* hs most wanted.jpg */; };
+		41C3C3E7193851EB00F021F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3E6193851EB00F021F8 /* AVFoundation.framework */; };
+		41C3C3E91938529900F021F8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3E81938529900F021F8 /* CoreMedia.framework */; };
+		41C3C3EB193852A800F021F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3C3EA193852A800F021F8 /* MediaPlayer.framework */; };
+		41C3C3F11938672200F021F8 /* ELEXMixtapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3C3F01938672200F021F8 /* ELEXMixtapes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4180AFCA1949809200ACC264 /* ELEXMixtapeSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELEXMixtapeSong.h; sourceTree = "<group>"; };
+		4180AFCB1949809200ACC264 /* ELEXMixtapeSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELEXMixtapeSong.m; sourceTree = "<group>"; };
+		4186EA79193EE817008B55FB /* problem child.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "problem child.jpg"; sourceTree = "<group>"; };
+		4186EA7B193EE882008B55FB /* ELEXMixtapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELEXMixtapesViewController.h; sourceTree = "<group>"; };
+		4186EA7C193EE882008B55FB /* ELEXMixtapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELEXMixtapesViewController.m; sourceTree = "<group>"; };
+		4186EA7D193EE882008B55FB /* ELEXMixtapesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELEXMixtapesViewController.xib; sourceTree = "<group>"; };
+		4186EA80193EEB49008B55FB /* welcome to battle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "welcome to battle.jpg"; sourceTree = "<group>"; };
+		4186EA82193EEB57008B55FB /* hs mixtape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hs mixtape.jpg"; sourceTree = "<group>"; };
+		4186EA84193F77F5008B55FB /* ELEXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELEXTestViewController.h; sourceTree = "<group>"; };
+		4186EA85193F77F5008B55FB /* ELEXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELEXTestViewController.m; sourceTree = "<group>"; };
+		4186EA86193F77F5008B55FB /* ELEXTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELEXTestViewController.xib; sourceTree = "<group>"; };
 		41C3C3A3193806CD00F021F8 /* MixTape Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MixTape Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C3C3A6193806CD00F021F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41C3C3A8193806CD00F021F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +79,20 @@
 		41C3C3C7193806CD00F021F8 /* MixTape PlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixTape PlayerTests-Info.plist"; sourceTree = "<group>"; };
 		41C3C3C9193806CD00F021F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41C3C3CB193806CD00F021F8 /* MixTape_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixTape_PlayerTests.m; sourceTree = "<group>"; };
+		41C3C3D51938071300F021F8 /* ELEXMixtapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELEXMixtapeViewController.h; sourceTree = "<group>"; };
+		41C3C3D61938071300F021F8 /* ELEXMixtapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELEXMixtapeViewController.m; sourceTree = "<group>"; };
+		41C3C3D71938071300F021F8 /* ELEXMixtapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELEXMixtapeViewController.xib; sourceTree = "<group>"; };
+		41C3C3DA1938167000F021F8 /* lil mal lfso4 cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lil mal lfso4 cover.jpg"; sourceTree = "<group>"; };
+		41C3C3DC1938289A00F021F8 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		41C3C3DD1938289A00F021F8 /* pause_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@2x.png"; sourceTree = "<group>"; };
+		41C3C3DE1938289A00F021F8 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		41C3C3DF1938289A00F021F8 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		41C3C3E419383EFE00F021F8 /* hs most wanted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hs most wanted.jpg"; sourceTree = "<group>"; };
+		41C3C3E6193851EB00F021F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41C3C3E81938529900F021F8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		41C3C3EA193852A800F021F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		41C3C3EF1938672200F021F8 /* ELEXMixtapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELEXMixtapes.h; sourceTree = "<group>"; };
+		41C3C3F01938672200F021F8 /* ELEXMixtapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELEXMixtapes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C3C3EB193852A800F021F8 /* MediaPlayer.framework in Frameworks */,
+				41C3C3E91938529900F021F8 /* CoreMedia.framework in Frameworks */,
+				41C3C3E7193851EB00F021F8 /* AVFoundation.framework in Frameworks */,
 				41C3C3A9193806CD00F021F8 /* CoreGraphics.framework in Frameworks */,
 				41C3C3AB193806CD00F021F8 /* UIKit.framework in Frameworks */,
 				41C3C3A7193806CD00F021F8 /* Foundation.framework in Frameworks */,
@@ -96,6 +144,9 @@
 		41C3C3A5193806CD00F021F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41C3C3EA193852A800F021F8 /* MediaPlayer.framework */,
+				41C3C3E81938529900F021F8 /* CoreMedia.framework */,
+				41C3C3E6193851EB00F021F8 /* AVFoundation.framework */,
 				41C3C3A6193806CD00F021F8 /* Foundation.framework */,
 				41C3C3A8193806CD00F021F8 /* CoreGraphics.framework */,
 				41C3C3AA193806CD00F021F8 /* UIKit.framework */,
@@ -109,6 +160,19 @@
 			children = (
 				41C3C3B5193806CD00F021F8 /* ELEXAppDelegate.h */,
 				41C3C3B6193806CD00F021F8 /* ELEXAppDelegate.m */,
+				41C3C3D51938071300F021F8 /* ELEXMixtapeViewController.h */,
+				41C3C3D61938071300F021F8 /* ELEXMixtapeViewController.m */,
+				41C3C3D71938071300F021F8 /* ELEXMixtapeViewController.xib */,
+				4186EA7B193EE882008B55FB /* ELEXMixtapesViewController.h */,
+				4186EA7C193EE882008B55FB /* ELEXMixtapesViewController.m */,
+				4186EA7D193EE882008B55FB /* ELEXMixtapesViewController.xib */,
+				4186EA84193F77F5008B55FB /* ELEXTestViewController.h */,
+				4186EA85193F77F5008B55FB /* ELEXTestViewController.m */,
+				4186EA86193F77F5008B55FB /* ELEXTestViewController.xib */,
+				4180AFCA1949809200ACC264 /* ELEXMixtapeSong.h */,
+				4180AFCB1949809200ACC264 /* ELEXMixtapeSong.m */,
+				41C3C3EF1938672200F021F8 /* ELEXMixtapes.h */,
+				41C3C3F01938672200F021F8 /* ELEXMixtapes.m */,
 				41C3C3B8193806CD00F021F8 /* Images.xcassets */,
 				41C3C3AD193806CD00F021F8 /* Supporting Files */,
 			);
@@ -118,6 +182,15 @@
 		41C3C3AD193806CD00F021F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4186EA82193EEB57008B55FB /* hs mixtape.jpg */,
+				4186EA80193EEB49008B55FB /* welcome to battle.jpg */,
+				4186EA79193EE817008B55FB /* problem child.jpg */,
+				41C3C3E419383EFE00F021F8 /* hs most wanted.jpg */,
+				41C3C3DC1938289A00F021F8 /* pause_button.png */,
+				41C3C3DD1938289A00F021F8 /* pause_button@2x.png */,
+				41C3C3DE1938289A00F021F8 /* play_button.png */,
+				41C3C3DF1938289A00F021F8 /* play_button@2x.png */,
+				41C3C3DA1938167000F021F8 /* lil mal lfso4 cover.jpg */,
 				41C3C3AE193806CD00F021F8 /* MixTape Player-Info.plist */,
 				41C3C3AF193806CD00F021F8 /* InfoPlist.strings */,
 				41C3C3B2193806CD00F021F8 /* main.m */,
@@ -192,6 +265,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Apps By Elex";
 				TargetAttributes = {
+					41C3C3A2193806CD00F021F8 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					41C3C3BD193806CD00F021F8 = {
 						TestTargetID = 41C3C3A2193806CD00F021F8;
 					};
@@ -220,8 +300,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C3C3E519383EFE00F021F8 /* hs most wanted.jpg in Resources */,
+				41C3C3E31938289A00F021F8 /* play_button@2x.png in Resources */,
+				41C3C3DB1938167000F021F8 /* lil mal lfso4 cover.jpg in Resources */,
+				4186EA7A193EE817008B55FB /* problem child.jpg in Resources */,
+				4186EA7F193EE882008B55FB /* ELEXMixtapesViewController.xib in Resources */,
+				41C3C3E11938289A00F021F8 /* pause_button@2x.png in Resources */,
+				4186EA83193EEB57008B55FB /* hs mixtape.jpg in Resources */,
+				41C3C3E21938289A00F021F8 /* play_button.png in Resources */,
 				41C3C3B1193806CD00F021F8 /* InfoPlist.strings in Resources */,
+				41C3C3E01938289A00F021F8 /* pause_button.png in Resources */,
+				4186EA88193F77F5008B55FB /* ELEXTestViewController.xib in Resources */,
+				41C3C3D91938071300F021F8 /* ELEXMixtapeViewController.xib in Resources */,
 				41C3C3B9193806CD00F021F8 /* Images.xcassets in Resources */,
+				4186EA81193EEB49008B55FB /* welcome to battle.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4180AFCC1949809200ACC264 /* ELEXMixtapeSong.m in Sources */,
 				41C3C3B7193806CD00F021F8 /* ELEXAppDelegate.m in Sources */,
+				4186EA7E193EE882008B55FB /* ELEXMixtapesViewController.m in Sources */,
+				41C3C3F11938672200F021F8 /* ELEXMixtapes.m in Sources */,
 				41C3C3B3193806CD00F021F8 /* main.m in Sources */,
+				4186EA87193F77F5008B55FB /* ELEXTestViewController.m in Sources */,
+				41C3C3D81938071300F021F8 /* ELEXMixtapeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +535,7 @@
 				41C3C3D1193806CD00F021F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41C3C3D2193806CD00F021F8 /* Build configuration list for PBXNativeTarget "MixTape PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +544,7 @@
 				41C3C3D4193806CD00F021F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

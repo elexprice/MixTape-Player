@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface ELEXAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ELEXAppDelegate : UIResponder <UIApplicationDelegate, AVAudioPlayerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -7,6 +7,9 @@
 //
 
 #import "ELEXAppDelegate.h"
+#import "ELEXMixtapeViewController.h"
+#import "ELEXMixtapesViewController.h"
+
 
 @implementation ELEXAppDelegate
 
@@ -14,6 +17,23 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Registers this class as the delegate of the audio session.
+    [[AVAudioSession sharedInstance] setDelegate: self];
+    // Allow the app sound to continue to play when the screen is locked.
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+    
+    
+    
+    ELEXMixtapesViewController *mixtapesVV = [[ELEXMixtapesViewController alloc] init];
+    // ELEXMixtapeViewController *mixVC = [[ELEXMixtapeViewController alloc]init];
+    
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:mixtapesVV];
+    
+    self.window.rootViewController = navController;
+    
+    //[self.window addSubview:mixVC.view];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
